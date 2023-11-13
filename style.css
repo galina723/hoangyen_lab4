@@ -1,0 +1,166 @@
+* {
+
+    margin: 0px;
+
+}
+
+
+div.hRight {
+    float: right;
+    padding-right: 10px;
+}
+
+div.hRight a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+div#hBorder {
+    background-color: aquamarine;
+    padding: 10px;
+    word-spacing: 6px;
+    font-size: 20px;
+    border-style: solid;
+    border-bottom-style: double;
+}
+
+div#hBorder ul li {
+
+    text-decoration: none;
+    border-right: solid 1px #333;
+    display: inline;
+    padding-right: 10px;
+    font-weight: bolder;
+    border-bottom-width: 10px;
+}
+
+div#hBorder ul li.abc {
+    float: right;
+    display: inline;
+}
+
+div#hBorder ul li a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+
+div#hBorder ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+article {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 1px;
+    display: table;
+    clear: both;
+}
+
+article aside.left,
+aside.right,
+section {
+    display: table-cell;
+    vertical-align: top;
+}
+
+article aside.left {
+    width: 20%;
+}
+
+article aside.right {
+    width: 25%;
+}
+
+section img {
+    width: 19%;
+    height: auto;
+}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.lefttitle {
+    border: 1px solid blue;
+}
+
+.title1 {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.righttitle {
+    border: 1px solid black;
+}
+
+.title2 {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.title3 {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.title4 {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.title5 {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.title6 {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.met1 {
+    border: 1px solid blue;
+    text-align: center;
+    align-items: center;
+}
+
+.met2 {
+    border: 1px solid blue;
+    text-align: center;
+    align-items: center;
+}
+
+.met3 {
+    border: 1px solid blue;
+
+}
+
+.pic {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+.pic .detail{
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    line-height: 100%;
+    flex: 90%;
+}
+
+@media (max-width: 800px) {
+    .pic .detail{
+      flex-direction: row;
+    }
+  }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    
+    <form action="/action_page.php" style="border-width: 40%;">
+
+        <h3 style="text-align: center;">MEMBER REGISTRATION</h3>
+
+        <fieldset>
+
+            <legend><b>Thông tin cá nhân</b></legend>
+            <label for="name">Họ và Tên </label>
+            <input type="text" id="name" required> <br> <br>
+            <label for="date">Ngày sinh</label>
+            <select name="day" required>
+                <option value="1" selected>01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            <label for="month">Tháng</label>
+            <select name="month">
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                </select>
+
+            <label for="year">Nam</label>
+            <input type="text" id="year" name="year" style="width: 30px;" required>  <br> <br>
+
+            <label for="gender">Giới tính</label>
+            <input type="radio" id="gender" name="gender">
+            <a> Nam </a>
+            <input type="radio" id="gender" name="gender">
+            <a> Nữ </a> <br> <br>
+
+            <label for="adr">Địa chỉ</label>
+            <textarea id="adr" required></textarea> <br> <br>
+
+            <label for="phonenum">Telephone</label>
+            <input type="tel" id="phonenum" pattern="[0-9]{10}" required> <br> <br>
+
+            <label for="mail">Email</label>
+            <input type="email" id="mail" required>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Thông tin đăng nhập</legend>
+            <label for="name">Tên đăng nhập</label>
+            <input type="text" id="name" required> <br> <br>
+
+            <label for="pass">Mật khẩu</label>
+            <input type="password" id="pass" required>
+
+            <label for="passs">Nhập lại mật khẩu</label>
+            <input type="password" id="passs" required>
+
+        </fieldset>
+
+        <div class="btn" style="text-align: center;">
+
+            <button type="submit">Login</button>
+            <button type="reset">Cancal</button>
+
+        </div>
+        
+
+    </form>
+
+</body>
+</html>
