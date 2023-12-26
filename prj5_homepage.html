@@ -1,154 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC BookStore</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <link rel = "stylesheet" href = "style.css">
 </head>
-
 <body>
-
     <header>
-        <div>
-
-            <a href="#"><img src="logoABCbook.png" width="600px" height="200px"></a>
-
+        <div class="img" >
+            <img src="C:\Users\ADMIN\Downloads\img_Practice3\logoABCbook.png">
         </div>
-
-        <div class="hRight">
-
-            
-                <i class="fa-solid fa-user"></i>
-
-                <a href="login.html">Log in</a> |
-
-                <a href="prj1_register.html">Register</a>
-                <i class="fa-solid fa-cart-shopping"></i> <a href="null">Cart</a>
-
-            
-
+        <div class="icon">
+            <i class="fa-solid fa-user"></i><a href="LAB2_Problem6d.html">Log in</a>
+            <a href="Registration.html">| Registration</a>
+            <i class="fa-solid fa-cart-shopping"></i><a href="null">Cart</a>
         </div>
-    </header> <br> <br>
+    </header>
 
-    <div id="hBorder">
-
-
-
-        <ul class="hul" >
-
-            <li> <a href="prj5_homepage.html" >HomePage</a></li>
-            <li> <a href="problem5_pr1.html" >Introduction</a></li>
-            <li> <a href="#"">Contact</a></li>
-            <li class="abc">
-
-                <label for="search"></label>
-                <input type="text" name="search" placeholder="Enter the title of the book">
-                <button type="submit">Find books</button>
-
-            </li>
-
-        </ul>
-            
-
-    </div>
-
-    <br><div> <!-- Rules on the body of the page -->
-        <article>
-            <aside>
-                <article>
-
-                    <h2> BOOKS BY SUBJECT</h2>
-                    <ul style="color: blue; text-decoration: underline;">
-
-                        <li>Foreign language</li>
-                        <li>Information technology</li>
-                        <li>Law</li>
-                        <li>Literature</li>
-                        <li>Science and technology</li>
-                        <li>Agriculture</li>
-                        <li>History of geography</li>
-                        <li>Economics</li>
-                        <li>Listen to the 190E</li>
-
+    <nav class="id">
+            <ul>
+                <li><a href = "Homepage.html"><b>HOME PAGE</b></a></li>
+                <li><a href = "Lab1_2_Problem5.html"><b>INTRODUCTION</b></a></li>
+                <li><a href="#"><b>CONTACT</b></a></li>
+                <li class="me"><p><input type="text" placeholder="Enter the title of the book">
+                    <input type = "submit" value="Find books"></p></li>
+            </ul>    
+    </nav>
+    <p>
+        <article id="body">
+            <aside id = "left">
+                <div class="asideleft">
+                <div id="subject">
+                    <p>BOOKS BY SUBJECT</p>
+                    <ul type = "square">
+                        <li><a href="Ngoai Ngu">Foreign Language</a></li>
+                        <li><a href="Congnghethongtin">Information Technology</a></li>
+                        <li><a href="Luat">Law</a></li>
+                        <li><a href="Vanhoc">Literature</a></li>
+                        <li><a href="Khoahockythuat">Science and techonology</a></li>
+                        <li><a href="Nongnghiep">Agriculture</a></li>
+                        <li><a href="lichsudialy">History of geography</a></li>
+                        <li><a href="kinhte">Economics</a></li>
+                        <li><a href="nghethuatsong">Listen to the song</a></li>
                     </ul>
-
-                </article>
-
-                <article>
-
-                    <h2> BOOKS BY PUBLISHER</h2>
-                    <ul style="color: blue; text-decoration: underline;">
-
-                        <li>Yougn publisher</li>
-                        <li>Statistics Publishing House</li>
-                        <li>Bronze needle</li>
-                        <li>National University</li>
-                        <li>Artistic craft culture</li>
-                        <li>Culture</li>
-                        <li>History of geography</li>
-                        <li>Labor Society</li>
-                        <li>Science & Enginesties</li>
-
+                </div>
+                <div id="publishers">
+                    <p>BOOKS BY PUBLISHER</p>
+                    <ul type = "square">
+                        <li><a href="NXBTre">Young publisher</a></li>
+                        <li><a href="NXBThongke">Statistic Publishing House</a></li>
+                        <li><a href="Kimdong">Bronze Needle</a></li>
+                        <li><a href="DHQuocgia">National University</a></li>
+                        <li><a href="Vanhoanghethuat">Artistic craft culture</a></li>
+                        <li><a href="Vanhoa">Culture</a></li>
+                        <li><a href="laodongxahoi">Labor-Society</a></li>
+                        <li><a href="khoahockythuat">Science & Engineering</a></li>
                     </ul>
-
-                </article>
+                </div>
+            </div>
             </aside>
-
             <section>
-                <div>
-
-                    <h2 style="color: blue;"> Giao Trinh Tin Hoc Co Ban </h2>
-                    <img src="gtthcb.png" alt="anhtraicay" width="250px" height="320">
-                    <p> Don gia: <a style="color: red;"> 26,000 VND</a></p>
-                    <a href="detailproduct6.html"><button type="button" style="background-color: orange;"><i
-                                class="fa-solid fa-cart-shopping" style="color: black;"></i> Dat mua </button></a>
-
+                <p class="header">NEW BOOKS</p>
+                <div class="section-container">
+                    <div class="product-box">
+                    <p class="namebook"><a href="LAB2_Problem6b.html">Giáo trình Tin học cơ bản</a></p>
+                    <img class="photo" src = "C:\Users\ADMIN\Downloads\download.jpg">
+                    <p class="bill">Đơn giá: <span class="price">126,000 VNĐ</span></p>
+                    <a href="#"><image src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" ></a>
+                    </div>
+                    <div class="product-box">
+                    <p class="namebook"><a href = #>English For Tech</a></p>
+                    <img class="photo" src = "C:\Users\ADMIN\Downloads\img_Practice3\EnglishForTech.jpg">
+                    <p class="bill">Đơn giá: <span class="price">206,000 VNĐ</span></p>
+                    <a href="#"><image src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" ></a>
+                    </div>
+                    <div class="product-box">
+                    <p class="namebook"><a href = #>BARC Computer Science</a></p>
+                    <img class="photo" src = "C:\Users\ADMIN\Downloads\img_Practice3\BARC.png">
+                    <p class="bill">Đơn giá: <span class="price">260,000 VNĐ</span></p>
+                    <a href="#"><image src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" ></a>
+                    </div>
+                    <div class="product-box">  
+                    <p class="namebook"><a href = #>The Davinci Code</a></p>
+                    <img class="photo" src = "C:\Users\ADMIN\Downloads\img_Practice3\Davinci.png">
+                    <p class="bill">Đơn giá: <span class="price">265,000 VNĐ</span></p>
+                    <a href="#"><image src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" ></a>
+                    </div>
+                    <div class="product-box">
+                    <p class="namebook"><a href = #>Harry Potter</a></p>
+                    <img class="photo" src = "C:\Users\ADMIN\Downloads\img_Practice3\harrypotter.png">
+                    <p class="bill">Đơn giá: <span class="price">267,000 VNĐ</span></p>
+                    <a href="#"><image src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" ></a>
+                    </div>
+                    <div class="product-box">
+                    <p class="namebook"><a href = #>Visual Basic</a></p>
+                    <img class="photo" src = "C:\Users\ADMIN\Downloads\img_Practice3\VisualBasic.png">
+                    <p class="bill">Đơn giá: <span class="price">130,000 VNĐ</span></p>
+                    <a href="#"><image src = "C:\Users\ADMIN\Downloads\cart2.png" alt="cart" style="width: 140px; height: 45px;" ></a>
+                    </div>
+                    </div>
                 </div>
             </section>
-
-            <aside>
-                <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="stop()" onMouseOut="start()">
-                    <p><a href="#"><img src="EnglishForTech.jpg" width="200px" height="200px"> English For Tech</a></p>
+            <aside id="right">
+                <div id="bestseller">
+                <p id="bo">BESTSELLER</p>
+                 <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                 <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\EnglishForTech.jpg" width="200px" height="200px">
+                 English For Tech</a></p>
                 </marquee>
-
-                <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="stop()" onMouseOut="start()">
-                    <p><a href="#"><img src="BARC.png" width="200px" height="200px"> BARC Computer Science</a></p>
-                </marquee>
-
-                <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="stop()" onMouseOut="start()">
-                    <p><a href="#"><img src="Davinci.png" width="200px" height="200px"> The Davinci Code</a></p>
-                </marquee>
-
-                <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="stop()" onMouseOut="start()">
-                    <p><a href="#"><img src="harrypotter.png" width="200px" height="200px"> Harry Potter</a></p>
-                </marquee>
-
-                <h3> THE WEBSITE LINKS</h3> <br>
-                <select name="linkpage">
-
-                    <option value="">--- Select the linking page ---</option>
-                    <option value=""><a href="https://lib.eiu.edu.vn/">Eastern International University</a></option>
-                    <option value="vx"><a href=""></a></option>
-
-                </select>
-
-                <h3>ACCESS STATISTICS</h3>
+                <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                 <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\harrypotter.png" width="200px" height="200px">
+                 Harry Potter and the Deathly Hallow</a></p>
+                 </marquee>
+                 <marquee direction="up" scrollamount="10" scrolldelay ="90" 
+                     onmousemove="stop()" onmouseout="start()">
+                <p><a href="#"><img class="image" src = "C:\Users\ADMIN\Downloads\img_Practice3\Davinci.png" width="200px" height="200px">
+                The Davinci Code</a></p>
+                 </marquee>
+                 </div>
+</p>        
+                <div id="link">
+                <p id="bor">THE WEBSITE LINKS</p> 
+                <select class="box" name="links">
+                <option value="1" selected>--- Select the linking page---</option>
+                <option value="2"><a href="https://lib.eiu.edu.vn/">Library EIU</a></option>
+                <option value="3"><a href = "https://eiu.edu.vn/">Eastern Internation University</a></option>
+                </select> 
+            </div>
+            <div id="statistic">
+                <p id="bord">ACCESS STATISTICS</p>
                 <p><b>Total Access: 500</b></p>
                 <p><b>Online: 3</b></p>
+            </div>
             </aside>
         </article>
-    </div>
-    <footer>
-        <p><i class="fa-regular fa-copyright"></i>2016-ABC BookStore.Alright Reserved</p>
-        <p>Webebiste is developed to be used as a hands-on exercise in Web Programming</p>
-        <p>Email:abcbookstore<a style="font-style: italic;">@</a>gmail.com</p>
-
+    <footer style="text-align: center;">
+        <p>2016 - ABC BookStore.Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
     </footer>
-
 </body>
-
 </html>
